@@ -11,8 +11,4 @@ This project is a simulation of an e-commerce platform similar to Amazon, built 
 - **Frontend**: HTML, CSS, JavaScript.
 
 ## Contributing
-<<<<<<< HEAD
 Contributions are welcome! Please fork the repository and submit a pull request.
-=======
-Contributions are welcome! Please fork the repository and submit a pull request.
->>>>>>> 07fa4765f76f50d4c87dc86a9f64e826392b6cc3
