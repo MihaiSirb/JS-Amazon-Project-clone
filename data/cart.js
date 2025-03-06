@@ -32,7 +32,7 @@ export function removeFromCart(productId) {
   const newCart = [];
 
   cart.forEach((cartItem) => {
-    if (productId !== cartItem.productId) {
+    if (cartItem.productId !== productId) {
       newCart.push(cartItem);
     }
   });
