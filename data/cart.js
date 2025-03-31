@@ -1,9 +1,10 @@
-export let cart = [];
+export let cart;
 
 export function loadFromStorage() {
   const storedCart = localStorage.getItem('cart');
+  
   if (storedCart) {
-    cart = JSON.parse(storedCart);
+    cart = JSON.parse(storedCart)
   } else {
     cart = [{
       productId: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',
@@ -74,5 +75,4 @@ export function updateDeliveryOption(productId, deliveryOptionId) {
   }
 }
 
-// Load cart from storage when the module is loaded
 loadFromStorage();
